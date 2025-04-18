@@ -416,10 +416,36 @@ async def handle_daily_tip(callback: CallbackQuery):
     await callback.answer()
 
 @router.message(F.text == "📊 Mood Log")
-async def handle_mood_log_button(message: Message):
+async def handle_mood_log_button(message: Message, state: FSMContext):
     print(f"📊 Mood Log (text) requested by user {message.from_user.id}")
-    await handle_track_mood(message)
+    mood_keyboard = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="😊 Happy", callback_data="mood:happy")],
+        [InlineKeyboardButton(text="😢 Sad", callback_data="mood:sad")],
+        [InlineKeyboardButton(text="😡 Angry", callback_data="mood:angry")],
+        [InlineKeyboardButton(text="😴 Tired", callback_data="mood:tired")],
+        [InlineKeyboardButton(text="😰 Anxious", callback_data="mood:anxious")]
+    ])
+    await message.answer("📊 How are you feeling today?", reply_markup=mood_keyboard)
 
+@router.message(F.text == "👶 Daily Tip")
+async def handle_daily_tip_text(message: Message):
+    print(f"📅 Daily Tip (text) requested by user {message.from_user.id}")
+    birthdates = load_birthdates()
+    user_id = str(message.from_user.id)
+    if user_id in birthdates:
+        birthdate = datetime.datetime.strptime(birthdates[user_id], "%d.%m.%Y")
+        today = datetime.datetime.now()
+        age_in_months = (today.year - birthdate.year) * 12 + today.month - birthdate.month
+        tip = generate_gpt_tip(age_in_months)
+        await message.answer(f"📅 Daily Tip for your {age_in_months}-month-old:\n\n{tip}")
+    else:
+        keyboard = InlineKeyboardMarkup(inline_keyboard=[
+            [InlineKeyboardButton(text="📝 Update Birthdate", callback_data="menu:update_birthday")]
+        ])
+        await message.answer(
+            "👶 I’d love to share a Daily Tip — but first, I need to know your child’s birthdate. Please tap the button below 💛",
+            reply_markup=keyboard
+        )
 @router.message(F.text == "🌟 Challenge")
 async def handle_challenge_button(message: Message):
     print(f"🌟 Challenge requested by user {message.from_user.id}")
