@@ -1,0 +1,172 @@
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.198534 seconds and try again... (tryings = 1, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.413821 seconds and try again... (tryings = 2, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.663334 seconds and try again... (tryings = 3, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 2.054758 seconds and try again... (tryings = 4, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 2.713499 seconds and try again... (tryings = 5, bot id = 7923977310)
+Received SIGTERM signal
+🔍 Listing available Gemini models...
+✅ Available model: models/chat-bison-001
+✅ Available model: models/text-bison-001
+✅ Available model: models/embedding-gecko-001
+✅ Available model: models/gemini-1.0-pro-vision-latest
+✅ Available model: models/gemini-pro-vision
+✅ Available model: models/gemini-1.5-pro-latest
+✅ Available model: models/gemini-1.5-pro-001
+✅ Available model: models/gemini-1.5-pro-002
+✅ Available model: models/gemini-1.5-pro
+✅ Available model: models/gemini-1.5-flash-latest
+✅ Available model: models/gemini-1.5-flash-001
+✅ Available model: models/gemini-1.5-flash-001-tuning
+✅ Available model: models/gemini-1.5-flash
+✅ Available model: models/gemini-1.5-flash-002
+✅ Available model: models/gemini-1.5-flash-8b
+✅ Available model: models/gemini-1.5-flash-8b-001
+✅ Available model: models/gemini-1.5-flash-8b-latest
+✅ Available model: models/gemini-1.5-flash-8b-exp-0827
+✅ Available model: models/gemini-1.5-flash-8b-exp-0924
+✅ Available model: models/gemini-2.5-pro-exp-03-25
+✅ Available model: models/gemini-2.5-pro-preview-03-25
+✅ Available model: models/gemini-2.5-flash-preview-04-17
+✅ Available model: models/gemini-2.0-flash-exp
+✅ Available model: models/gemini-2.0-flash
+✅ Available model: models/gemini-2.0-flash-001
+✅ Available model: models/gemini-2.0-flash-lite-001
+✅ Available model: models/gemini-2.0-flash-lite
+✅ Available model: models/gemini-2.0-flash-lite-preview-02-05
+✅ Available model: models/gemini-2.0-flash-lite-preview
+✅ Available model: models/gemini-2.0-pro-exp
+✅ Available model: models/gemini-2.0-pro-exp-02-05
+✅ Available model: models/gemini-exp-1206
+✅ Available model: models/gemini-2.0-flash-thinking-exp-01-21
+✅ Available model: models/gemini-2.0-flash-thinking-exp
+✅ Available model: models/gemini-2.0-flash-thinking-exp-1219
+✅ Available model: models/learnlm-1.5-pro-experimental
+✅ Available model: models/learnlm-2.0-flash-experimental
+✅ Available model: models/gemma-3-1b-it
+✅ Available model: models/gemma-3-4b-it
+✅ Available model: models/gemma-3-12b-it
+✅ Available model: models/gemma-3-27b-it
+✅ Available model: models/embedding-001
+✅ Available model: models/text-embedding-004
+✅ Available model: models/gemini-embedding-exp-03-07
+✅ Available model: models/gemini-embedding-exp
+✅ Available model: models/aqa
+✅ Available model: models/imagen-3.0-generate-002
+✅ Available model: models/gemini-2.0-flash-live-001
+🔎 Gemini test response: Artificial intelligence (AI) works by combining large amounts of data with fast, iterative processing and intelligent algorithms, allowing the software to learn automatically from patterns or features in the data.  There's no single "how" because AI encompasses many different approaches, but here are some key concepts:
+
+* **Machine Learning (ML):** This is a core component of most AI systems.  ML algorithms allow systems to learn from data without explicit programming.  Instead of being explicitly programmed with rules, they identify patterns and relationships in data to make predictions or decisions.  Different types of ML include:
+    * **Supervised Learning:** The algorithm is trained on labeled data (data with known inputs and outputs).  It learns to map inputs to outputs and then predicts outputs for new, unseen inputs.  Examples include image classification and spam detection.
+    * **Unsupervised Learning:** The algorithm is trained on unlabeled data.  It identifies patterns and structures in the data without explicit guidance.  Examples include clustering and dimensionality reduction.
+    * **Reinforcement Learning:** The algorithm learns through trial and error by interacting with an environment.  It receives rewards for desirable actions and penalties for undesirable actions.  Examples include game playing and robotics.
+
+* **Deep Learning (DL):** A subset of machine learning that uses artificial neural networks with multiple layers (hence "deep").  These networks can learn complex patterns from large datasets, leading to breakthroughs in areas like image recognition, natural language processing, and speech recognition.
+
+* **Natural Language Processing (NLP):** This branch of AI focuses on enabling computers to understand, interpret, and generate human language.  It's used in applications like chatbots, machine translation, and sentiment analysis.
+
+* **Computer Vision:**  This area of AI enables computers to "see" and interpret images and videos. It uses techniques like image recognition, object detection, and image segmentation.
+
+* **Expert Systems:** These systems mimic the decision-making ability of a human expert in a specific domain. They use a knowledge base of rules and facts to provide advice or make predictions.
+
+
+**In simpler terms:** Imagine teaching a dog a trick.  With traditional programming, you'd write a detailed set of instructions. With AI, you'd show the dog many examples of the trick, rewarding it when it gets close and correcting it when it's wrong.  The dog (the AI) learns through observation and feedback, eventually mastering the trick without explicit instructions for every single step.
+
+The effectiveness of AI depends heavily on:
+
+* **Data Quality:**  AI systems are only as good as the data they are trained on.  Biased or incomplete data will lead to biased or inaccurate results.
+* **Algorithm Selection:** Choosing the right algorithm for a given task is crucial.
+* **Computational Resources:** Training complex AI models requires significant computing power.
+
+
+This is a high-level overview.  The specifics of how a particular AI system works can be quite complex and depend on the specific techniques and algorithms used.
+
+🚀 Bot is running. Waiting for messages...
+Traceback (most recent call last):
+  File "/Users/annachekryshova/Nunu parent/bot.py", line 1, in <module>
+    from aiogram import Router, F
+ModuleNotFoundError: No module named 'aiogram'
+Traceback (most recent call last):
+  File "/Users/annachekryshova/Nunu parent/bot.py", line 1, in <module>
+    from aiogram import Router, F
+ModuleNotFoundError: No module named 'aiogram'
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.175746 seconds and try again... (tryings = 1, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.380978 seconds and try again... (tryings = 2, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.813587 seconds and try again... (tryings = 3, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 2.326520 seconds and try again... (tryings = 4, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.265622 seconds and try again... (tryings = 1, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.489295 seconds and try again... (tryings = 2, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.336448 seconds and try again... (tryings = 1, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.550296 seconds and try again... (tryings = 2, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 1.954214 seconds and try again... (tryings = 3, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 2.469455 seconds and try again... (tryings = 4, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 3.256636 seconds and try again... (tryings = 5, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 4.215245 seconds and try again... (tryings = 6, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 4.990384 seconds and try again... (tryings = 7, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 5.001829 seconds and try again... (tryings = 8, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 5.028462 seconds and try again... (tryings = 9, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 4.943767 seconds and try again... (tryings = 10, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 4.968956 seconds and try again... (tryings = 11, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 4.970449 seconds and try again... (tryings = 12, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 5.045887 seconds and try again... (tryings = 13, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 4.773277 seconds and try again... (tryings = 14, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 4.923994 seconds and try again... (tryings = 15, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 5.086109 seconds and try again... (tryings = 16, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 5.047777 seconds and try again... (tryings = 17, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 5.005510 seconds and try again... (tryings = 18, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 4.886890 seconds and try again... (tryings = 19, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 5.098020 seconds and try again... (tryings = 20, bot id = 7923977310)
+Traceback (most recent call last):
+  File "/Users/annachekryshova/Nunu parent/bot.py", line 1, in <module>
+    from aiogram import Router, F
+ModuleNotFoundError: No module named 'aiogram'
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 5.201177 seconds and try again... (tryings = 21, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 5.034023 seconds and try again... (tryings = 22, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 4.965537 seconds and try again... (tryings = 23, bot id = 7923977310)
+Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Sleep for 4.865383 seconds and try again... (tryings = 24, bot id = 7923977310)
+Traceback (most recent call last):
+  File "/Users/annachekryshova/Nunu parent/bot.py", line 1, in <module>
+    from aiogram import Router, F
+ModuleNotFoundError: No module named 'aiogram'
